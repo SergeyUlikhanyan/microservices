@@ -24,3 +24,7 @@ export profile=$1
 
 # Deploy
 docker-compose up --build -d
+
+
+cd /home/ubuntu
+rm -rf microservices
